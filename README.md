@@ -54,7 +54,7 @@ Evaluate the model on the validation set
 
 Save the trained model, tokenizer, and label mapping
 
-Training Summary:
+## Training Summary:
 
 Training samples: 94,829
 
@@ -62,7 +62,7 @@ Validation samples: 23,708
 
 Epochs: 1
 
-Evaluation Metrics:
+## Evaluation Metrics:
 
 Validation Accuracy: 69.28%
 
