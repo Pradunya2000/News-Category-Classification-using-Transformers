@@ -137,8 +137,7 @@ news-category-classifier/
 │   ├── tokenizer/
 │   └── label_map.json
 ├── training/
-│   ├── train.py
-│   └── evaluate.py
+│   └── train_and_evaluate.py 
 ├── requirements.txt
 └── README.md
 ```
