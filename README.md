@@ -114,17 +114,19 @@ The backend uses SQLite to store inference requests.
 Database File
 predictions.db
 
-Table: predictions
-Column	Description
-id	Auto-increment primary key
-input_text	Text received by the API
-predicted_category	Model prediction
-confidence	Prediction confidence score
-created_at	Timestamp of the request
+| Column             | Description                 |
+|--------------------|-----------------------------|
+| id                 | Auto-increment primary key  |
+| input_text         | Text received by the API    |
+| predicted_category | Model prediction            |
+| confidence         | Prediction confidence score |
+| created_at         | Timestamp of the request    |
+
 
 The database is used only for logging inference requests and does not store any training data.
 
 Project Structure
+```
 news-category-classifier/
 ├── backend/
 │   ├── app.py
@@ -135,9 +137,12 @@ news-category-classifier/
 │   ├── tokenizer/
 │   └── label_map.json
 ├── training/
-│   ├── train_and_evaluation.py
+│   ├── train.py
+│   └── evaluate.py
 ├── requirements.txt
 └── README.md
+```
+
 
 Final Note
 
