@@ -142,7 +142,22 @@ news-category-classifier/
 └── README.md
 ```
 
+## Trained Model Files
 
+The trained model files are not included directly in this repository due to GitHub size limitations.
+
+You can download the trained model from the link below:
+
+https://drive.google.com/drive/folders/1NKb0JOH6386UbDBKj3d1CDjJdBw9b4PU?usp=sharing
+
+After downloading, place the model folder in the project root as shown:
+
+```
+model/
+├── classifier/
+├── tokenizer/
+└── label_map.json
+```
 Final Note
 
 This project demonstrates an end-to-end machine learning workflow, from transformer fine-tuning to deploying a production-style inference API with database persistence.
