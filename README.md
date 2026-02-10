@@ -18,7 +18,7 @@ Data is provided in JSON format
 
 # 2. Model Used
 
-Model: distilbert-base-uncased
+Model: *distilbert-base-uncased*
 
 Library: Hugging Face Transformers
 
